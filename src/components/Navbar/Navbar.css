@@ -125,6 +125,7 @@
     display: block;
 }
 
+/* 
 @media (max-width: 768px) {
     .navbar {
         position: relative;
@@ -166,6 +167,68 @@
         background: linear-gradient(to right, #ce9ffc, #7367f0);
         color: #fff;
         width: 95%;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        z-index: 1100;
+    }
+} */
+
+/* Mobile and Tablet View */
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 1rem 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        display: block;
+    }
+
+    .nav-links a {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+        display: block;
+    }
+
+    .nav-links a:hover {
+        background: linear-gradient(to right, #ce9ffc, #7367f0);
+        color: #fff;
+        width: 95%;
+    }
+
+    /* Decrease size of logo in mobile view */
+    .navbar-logo .logo-image {
+        width: 50%;
+        /* Adjust this value as needed */
+        height: auto;
     }
 
     /* Close button styles */
