@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Router basename="/Vyshakh-portfolio">
+      <Router>
         <CustomCursor hoveringProject={hoveringProject} />
         <ProjectCustomCursor hoveringProject={hoveringProject} />
         <Home onHoverChange={handleHoverChange} />
