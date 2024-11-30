@@ -1,0 +1,252 @@
+/* Footer Section */
+#contact {
+    background-color: #050505;
+    color: white;
+    padding: 4rem 12rem;
+    border-top: 2px solid #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+/* Contact Left Section */
+.contact-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-left h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    font-family: 'Gilroy-ExtraBold';
+}
+
+.contact-left p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #C1C1C1;
+    margin-bottom: 1.5rem;
+    font-family: 'Gilroy-Medium';
+}
+
+.contact-left .contact-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #191919;
+    border: 1px solid #363636;
+    cursor: pointer;
+    font-family: 'Gilroy-Medium';
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Gradient Button */
+.gradient-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(90deg, #CE9FFC, #7367F0);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gradient-button .arrow-icon {
+    font-size: 1rem;
+}
+
+.gradient-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gradient-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+/* Contact Right Section */
+.contact-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+    font-family: 'Gilroy-Regular';
+}
+
+.contact-right-main {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: end;
+}
+
+.contact-right a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    border: 1px solid #363636;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-right a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact-right span {
+    color: #C1C1C1;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: end;
+}
+
+/* Responsive Styles */
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    #contact {
+        padding: 3rem 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align items to start */
+    }
+
+    .contact-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left h2 {
+        font-size: 2rem;
+    }
+
+    .contact-left p {
+        font-size: 0.9rem;
+    }
+
+    .contact-left .gradient-button {
+        width: 80%;
+        /* Adjust button width */
+    }
+
+    .contact-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-right-main {
+        justify-content: center;
+        /* Center the social icons */
+    }
+
+    .contact-right a {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        /* Increase icon size for better visibility */
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    #contact {
+        padding: 2rem;
+    }
+
+    .contact-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-left h2 {
+        font-size: 1.8rem;
+        /* Adjust font size */
+    }
+
+    .contact-left p {
+        font-size: 0.85rem;
+    }
+
+    .contact-left .gradient-button {
+        width: 35%;
+        /* Adjust button width */
+    }
+
+    .contact-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-right-main {
+        justify-content: center;
+        gap: 1rem;
+        /* Increase gap for mobile view */
+    }
+
+    .contact-right a {
+        width: 45px;
+        height: 45px;
+        font-size: 1.25rem;
+    }
+
+    .contact-right span {
+        font-size: 13px;
+        /* Smaller font for better readability */
+    }
+}
+
+/* Extra Small Mobile View */
+@media (max-width: 480px) {
+    #contact {
+        padding: 1.5rem;
+    }
+
+    .contact-left h2 {
+        font-size: 1.5rem;
+        /* Adjust for very small screens */
+    }
+
+    .contact-left p {
+        font-size: 0.8rem;
+    }
+
+    .contact-left .gradient-button {
+        width: 90%;
+        /* Almost full width button */
+    }
+
+    .contact-right a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+
+    .contact-right span {
+        font-size: 12px;
+    }
+}

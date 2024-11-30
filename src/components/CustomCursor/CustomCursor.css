@@ -1,0 +1,26 @@
+/* Cursor Follower */
+.cursor-follower-outer {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(206, 159, 252, 0.5);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    transition: none;
+}
+
+.cursor-follower {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(to right, #ce9ffc, #7367f0);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: none;
+}

@@ -1,0 +1,130 @@
+/* Expertise Section */
+.expertise-section {
+    background-color: #050505;
+    color: white;
+    padding: 2rem 12rem;
+}
+
+.expertise-header {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-family: 'Gilroy-SemiBold';
+}
+
+.expertise-title {
+    background: linear-gradient(90deg, #CE9FFC, #7367F0);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.expertise-header h2 {
+    font-size: 2.5rem;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.expertise-item {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy-Regular';
+}
+
+.expertise-content {
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.expertise-content span {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.expertise-line {
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effects */
+.expertise-item:hover .expertise-content span {
+    background: linear-gradient(90deg, #CE9FFC, #7367F0);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.expertise-item:hover .expertise-line {
+    background: linear-gradient(90deg, #CE9FFC, #7367F0);
+}
+
+/* Expertise Content Text Color */
+.expertise-content {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 1200px) {
+    .expertise-section {
+        padding: 2rem 6rem;
+    }
+
+    .expertise-header h2 {
+        font-size: 2rem;
+    }
+
+    .expertise-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-section {
+        padding: 2rem 3rem;
+    }
+
+    .expertise-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .expertise-grid {
+        grid-template-columns: 1fr;
+        /* 1 column for mobile */
+    }
+
+    .expertise-content {
+        padding: 1rem;
+        /* Reduce padding */
+    }
+
+    .expertise-content span {
+        font-size: 1rem;
+        /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .expertise-section {
+        padding: 1.5rem 2rem;
+    }
+
+    .expertise-header h2 {
+        font-size: 1.5rem;
+        /* Smaller font size */
+    }
+
+    .expertise-content {
+        padding: 0.8rem;
+        /* Less padding */
+    }
+
+    .expertise-content span {
+        font-size: 0.9rem;
+        /* Smaller font size */
+    }
+}

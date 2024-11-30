@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #2563eb;
+  --text-color: white;
+
+}
+
+.home-website {
+  font-family: 'Gilroy', sans-serif;
+  position: relative;
+  background-color: #050505;
+}

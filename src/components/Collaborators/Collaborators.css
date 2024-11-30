@@ -1,0 +1,135 @@
+.collaborators-section {
+    background-color: #050505;
+    color: white;
+    padding: 4rem 12rem;
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Allow wrapping on small screens */
+}
+
+.collaborators-header {
+    width: 40%;
+    font-family: 'Gilroy-Bold';
+}
+
+.collaborators-header h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.collaborators-header p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #cccccc;
+}
+
+.collaborators-grid {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collaborator-card {
+    background-color: #191919;
+    border: 1px solid #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collaborator-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.collaborator-logo {
+    width: 100px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .collaborators-section {
+        padding: 3rem 5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Align content to the left */
+    }
+
+    .collaborators-header {
+        width: 100%;
+        text-align: center;
+        /* Center align the header text */
+        margin-bottom: 2rem;
+    }
+
+    .collaborators-grid {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        /* Show two columns on medium screens */
+    }
+
+    .collaborator-logo {
+        width: 80px;
+        /* Smaller logo size */
+    }
+}
+
+@media (max-width: 768px) {
+    .collaborators-section {
+        padding: 3rem 2rem;
+    }
+
+    .collaborators-header h2 {
+        font-size: 2rem;
+        /* Smaller font size on small screens */
+    }
+
+    .collaborators-header p {
+        font-size: 0.9rem;
+        /* Smaller text for description */
+    }
+
+    .collaborators-grid {
+        grid-template-columns: 1fr;
+        /* Stack items vertically on small screens */
+    }
+
+    .collaborator-logo {
+        width: 100px;
+        /* Even smaller logo size */
+    }
+}
+
+@media (max-width: 480px) {
+    .collaborators-section {
+        padding: 2rem;
+    }
+
+    .collaborators-header h2 {
+        font-size: 1.5rem;
+        /* Even smaller font size */
+    }
+
+    .collaborators-header p {
+        font-size: 0.8rem;
+        /* Smaller description text */
+    }
+
+    .collaborators-grid {
+        grid-template-columns: 1fr;
+        /* Stack the items in one column */
+    }
+
+    .collaborator-logo {
+        width: 80px;
+        /* Further reduce logo size */
+    }
+}
