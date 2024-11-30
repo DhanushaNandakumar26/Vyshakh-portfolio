@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Vyshakh-portfolio/static/css/main.be30ec94.css",
-    "main.js": "/Vyshakh-portfolio/static/js/main.417b6279.js",
-    "static/js/453.1407b060.chunk.js": "/Vyshakh-portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Container.png": "/Vyshakh-portfolio/static/media/Container.94d7cdabb8e51025b4b5.png",
-    "static/media/project3.png": "/Vyshakh-portfolio/static/media/project3.87c89bd678d6f7a6608f.png",
-    "static/media/project6.png": "/Vyshakh-portfolio/static/media/project6.6cd9c44c05750f6a40d8.png",
-    "static/media/project1.png": "/Vyshakh-portfolio/static/media/project1.f8afc69308966521f97a.png",
-    "static/media/project2.png": "/Vyshakh-portfolio/static/media/project2.35f0eee70d43f0ae3b6f.png",
-    "static/media/project5.png": "/Vyshakh-portfolio/static/media/project5.4530267d16fcd9f930c2.png",
-    "static/media/Gilroy-MediumItalic.ttf": "/Vyshakh-portfolio/static/media/Gilroy-MediumItalic.32e71bba19919e8e0618.ttf",
-    "static/media/project4.png": "/Vyshakh-portfolio/static/media/project4.3f968cde40f003e05d04.png",
-    "static/media/Gilroy-Light.ttf": "/Vyshakh-portfolio/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
-    "static/media/Gilroy-Regular.ttf": "/Vyshakh-portfolio/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
-    "static/media/Gilroy-Medium.ttf": "/Vyshakh-portfolio/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
-    "static/media/Gilroy-SemiBold.ttf": "/Vyshakh-portfolio/static/media/Gilroy-SemiBold.07b9100a72fe7d46d20a.ttf",
-    "static/media/Gilroy-Bold.ttf": "/Vyshakh-portfolio/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
-    "static/media/Gilroy-ExtraBold.ttf": "/Vyshakh-portfolio/static/media/Gilroy-ExtraBold.59a66eb8c577778daaa5.ttf",
-    "index.html": "/Vyshakh-portfolio/index.html",
-    "main.be30ec94.css.map": "/Vyshakh-portfolio/static/css/main.be30ec94.css.map",
-    "main.417b6279.js.map": "/Vyshakh-portfolio/static/js/main.417b6279.js.map",
-    "453.1407b060.chunk.js.map": "/Vyshakh-portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.3770e1df.css",
+    "main.js": "/static/js/main.bd8cc877.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Container.png": "/static/media/Container.94d7cdabb8e51025b4b5.png",
+    "static/media/project3.png": "/static/media/project3.87c89bd678d6f7a6608f.png",
+    "static/media/project6.png": "/static/media/project6.6cd9c44c05750f6a40d8.png",
+    "static/media/project1.png": "/static/media/project1.f8afc69308966521f97a.png",
+    "static/media/project2.png": "/static/media/project2.35f0eee70d43f0ae3b6f.png",
+    "static/media/project5.png": "/static/media/project5.4530267d16fcd9f930c2.png",
+    "static/media/Gilroy-MediumItalic.ttf": "/static/media/Gilroy-MediumItalic.32e71bba19919e8e0618.ttf",
+    "static/media/project4.png": "/static/media/project4.3f968cde40f003e05d04.png",
+    "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Regular.ttf": "/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/Gilroy-SemiBold.ttf": "/static/media/Gilroy-SemiBold.07b9100a72fe7d46d20a.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/Gilroy-ExtraBold.ttf": "/static/media/Gilroy-ExtraBold.59a66eb8c577778daaa5.ttf",
+    "index.html": "/index.html",
+    "main.3770e1df.css.map": "/static/css/main.3770e1df.css.map",
+    "main.bd8cc877.js.map": "/static/js/main.bd8cc877.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be30ec94.css",
-    "static/js/main.417b6279.js"
+    "static/css/main.3770e1df.css",
+    "static/js/main.bd8cc877.js"
   ]
 }
