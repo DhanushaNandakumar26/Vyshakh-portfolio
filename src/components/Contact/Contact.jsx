@@ -47,7 +47,7 @@ const Contact = () => {
             viewport={{ once: true }}
         >
             <motion.div className="contact-left">
-                <motion.h2>Let's Work Together</motion.h2>
+                <motion.h2>Let's work together</motion.h2>
                 <motion.p>
                     Reach out anytime to discuss a collaboration or just to connect with in person!
                 </motion.p>

@@ -61,6 +61,7 @@
     background: linear-gradient(90deg, #CE9FFC, #7367F0);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    white-space: nowrap;
 }
 
 .gradient-button .arrow-icon {
@@ -122,7 +123,12 @@
 
 /* Responsive Styles */
 
-/* Tablet View */
+@media (max-width: 1200px) {
+    .gradient-button {
+        width: 70%;
+    }
+}
+
 @media (max-width: 1024px) {
     #contact {
         padding: 3rem 2rem;

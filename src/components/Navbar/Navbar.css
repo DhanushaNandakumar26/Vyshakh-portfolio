@@ -17,18 +17,18 @@
 
 .navbar-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 10rem;
+    /* gap: 10rem; */
     padding: 1rem 2rem;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .navbar-logo {
     display: flex;
     align-items: center;
-    height: 3rem;
+    height: 2rem;
 }
 
 .logo-image {
