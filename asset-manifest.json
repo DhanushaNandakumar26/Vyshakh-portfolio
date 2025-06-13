@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.14f59c61.css",
-    "main.js": "/static/js/main.2136c8c3.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "main.js": "/static/js/main.793ff226.js",
     "static/media/Container.png": "/static/media/Container.94d7cdabb8e51025b4b5.png",
-    "static/media/project3.png": "/static/media/project3.87c89bd678d6f7a6608f.png",
+    "static/media/project3.png": "/static/media/project3.96550d94b7e47775de15.png",
     "static/media/project6.png": "/static/media/project6.6cd9c44c05750f6a40d8.png",
     "static/media/project1.png": "/static/media/project1.f8afc69308966521f97a.png",
-    "static/media/project2.png": "/static/media/project2.35f0eee70d43f0ae3b6f.png",
+    "static/media/project2.png": "/static/media/project2.fc6fa92174469300f993.png",
     "static/media/project5.png": "/static/media/project5.4530267d16fcd9f930c2.png",
     "static/media/Gilroy-MediumItalic.ttf": "/static/media/Gilroy-MediumItalic.32e71bba19919e8e0618.ttf",
     "static/media/project4.png": "/static/media/project4.3f968cde40f003e05d04.png",
@@ -19,11 +18,10 @@
     "static/media/Gilroy-ExtraBold.ttf": "/static/media/Gilroy-ExtraBold.59a66eb8c577778daaa5.ttf",
     "index.html": "/index.html",
     "main.14f59c61.css.map": "/static/css/main.14f59c61.css.map",
-    "main.2136c8c3.js.map": "/static/js/main.2136c8c3.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.793ff226.js.map": "/static/js/main.793ff226.js.map"
   },
   "entrypoints": [
     "static/css/main.14f59c61.css",
-    "static/js/main.2136c8c3.js"
+    "static/js/main.793ff226.js"
   ]
 }
